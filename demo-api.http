@@ -1,0 +1,12 @@
+### GET request with dynamic variables
+GET localhost:8080/api/store/111
+
+### Send POST request with json body
+POST localhost:8080/api/update/111
+Content-Type: application/json
+
+{
+  "sku": "111",
+  "command": "RELEASE",
+  "value": 5
+}
