@@ -1,0 +1,3 @@
+rootProject.name = 'stock-management'
+include 'kafka-spring'
+include 'kafka-spring-consumer'
